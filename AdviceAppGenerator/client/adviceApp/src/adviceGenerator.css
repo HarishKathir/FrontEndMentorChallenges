@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+body{
+    box-sizing: border-box;
+}
+.container{
+    background-color:hsl(217, 19%, 24%);
+    border-radius: 10px;
+    padding: 20px 40px;
+}
+.diceButton{
+    position: relative;
+    top: 40px;
+    border-radius: 50%;
+    border: none;
+    width: 60px;
+    height: 60px;
+    background-color: hsl(150, 100%, 66%);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+p{
+    font-family: "Manrope";
+    font-size: 28px; 
+    font-weight: 500;
+}
+.diceButton:hover {
+    box-shadow: 0px 0px 30px hsl(150, 100%, 66%);;
+}
+.adviceId{
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 10px;
+}
+
+@media screen and (max-width:425px) {
+    .container{
+        max-width: 100%;
+        padding: 20px;
+    }
+    
+}
