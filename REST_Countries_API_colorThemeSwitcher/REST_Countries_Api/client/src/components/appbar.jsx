@@ -18,6 +18,7 @@ const appbar = ({onValueChange,Regions}) => {
         <div className="appbarContents">
             <div className="searchBar">
                 <input type="text" />
+                <img src={SearchIcon} />
             </div>
             <div className="optionSelector">
                 <select name="countries" id="" onChange={handleOptionChange}>

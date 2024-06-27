@@ -14,7 +14,7 @@ const card = ({country}) => {
         <CardMedia
           component="img"
           height="140"
-          image={flags}
+          image={flags.svg || flags.png}
           alt="green iguana"
         />
         <CardContent>
